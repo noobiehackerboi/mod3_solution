@@ -1,84 +1,67 @@
 body {
-    font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #1a1a1a;
-    background-color: #599e4b;
+  font-size: 16px;
+  color: #000000;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
 }
-
-
 /** HEADER **/
-
 #header-nav {
-    background-color: #c98715;
-    border-radius: 0;
-    border: 0;
+  background-color: #e4af34;
+  border-radius: 0;
+  border: 0;
 }
 
-#header-nav button {
-    margin-top: 22px;
+.navbar-brand {
+  padding-top: 25px;
 }
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fce29e;
-}
-
-.navbar-collapse {
-    border-top: 0;
-}
-
-.navbar-brand, .navbar-nav li a {
-    line-height: 76px;
-    height: 76px;
-    padding-top: 0;
-}
-
-.navbar-brand h1 {
-    color: #7d1913;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: bolder;
-    font-size: 1.8em;
-}
-
-.navbar-brand a:hover {
-    text-decoration: none;
-    text-shadow: 1px 1px 1px #fe9797;
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
 
 #nav-list {
-    background-color: #e4af34;
+  margin-top: 10px;
+  background-color: #e4af34;
 }
-
 #nav-list a {
-    font-weight: bolder;
-    color: #282828;
-    font-size: 1.2em;
+  color: #951C49;
+  text-align: center;
 }
-
 #nav-list a:hover {
-    color: #202020;
-    background-color: #fce29e;
+  background: #E7E7E7;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #7d1913;
+  border: 1px solid #61122f;
 }
+.navbar-header button.navbar-toggle {
+  clear: right;
+  margin-top: 15px;
+}
+/* END HEADER */
 
 
-/** END HEADER */
-
-
-/** HOME PAGE **/
-
+/* HOME PAGE */
+.container {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
 #main-content {
-    width: 92%;
-    margin-bottom: 40px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 #main-content h2 {
-    font-size: 2.9em;
+    font-size: 2.0em;
     font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 #main-content h3 {
@@ -87,10 +70,10 @@ body {
     margin-bottom: 1em;
 }
 
-#main-section {
-    background-color: #82d06b;
-    box-shadow: 0 0 50px #0f5900;
-    padding: 30px;
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #99ed7b;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #18580b;
 }
-
-/** END HOME PAGE **/
